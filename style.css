@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  /* background-color: #d5f54796; */
+  font-family: "Nova Round", cursive;
+  font-size: 20px;
+  color: rgb(255, 0, 149);
+  line-height: 1.7;
+}
+#a {
+  background-image: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0, 20px;
+}
+#a h1 {
+  font-size: 60px;
+  line-height: 2;
+}
+#a p {
+  font-size: 24px;
+}
+
+#a .button {
+  font-size: 21.6px;
+  text-decoration: none;
+  border: 1px solid rgb(255, 0, 149);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(255, 0, 149);
+}
+#a .button:hover {
+  background: rgb(255, 0, 149);
+  color: white;
+}
+#section-a {
+  padding: 20px;
+  background-color: #75353585;
+  color: rgb(255, 0, 149);
+  text-align: center;
+}
+#section-b {
+  padding: 20px;
+  background-color: #f4f4f4;
+
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+  background-color: #75353585;
+  text-align: center;
+}
